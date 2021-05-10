@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "579866975366",
+    "project_id": "kotlinwhatsappclone-8b45b",
+    "storage_bucket": "kotlinwhatsappclone-8b45b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579866975366:android:9620c3d834d73e33cf0507",
+        "android_client_info": {
+          "package_name": "com.vahitkeskin.kotlinwhatsappclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579866975366-6os8i1cp67k85u7bljnauc83hp02qenc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5LCa_F0A5om2mWWim7ncm3MXTJfSM0_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579866975366-6os8i1cp67k85u7bljnauc83hp02qenc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
