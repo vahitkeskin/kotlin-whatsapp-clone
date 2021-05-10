@@ -78,6 +78,7 @@ class SignInActivity : AppCompatActivity() {
                         if (task.isSuccessful) {
                             val intent = Intent(this, MainActivity::class.java)
                             startActivity(intent)
+                            finish()
                             Toast.makeText(
                                 this,
                                 "Welcome ${task.result?.user?.email}",
@@ -127,7 +128,7 @@ class SignInActivity : AppCompatActivity() {
 
                     val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
-                    //updateUI(user)
+                    finish()
                 } else {
                     //updateUI(null)
                 }

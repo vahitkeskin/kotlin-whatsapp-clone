@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:background="@android:color/white"
-                android:hint="Passwprd"
+                android:hint="Password"
                 android:inputType="textPassword"
                 android:padding="10dp" />
 

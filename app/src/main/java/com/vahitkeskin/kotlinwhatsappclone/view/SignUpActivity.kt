@@ -51,6 +51,7 @@ class SignUpActivity : AppCompatActivity() {
                         Toast.makeText(this, "User Created Successfully", Toast.LENGTH_LONG).show()
                         val intent = Intent(this, MainActivity::class.java)
                         startActivity(intent)
+                        finish()
                     } else {
                         Toast.makeText(this, task.exception?.message, Toast.LENGTH_LONG).show()
                     }
